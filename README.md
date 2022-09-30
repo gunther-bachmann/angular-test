@@ -11,10 +11,11 @@ cd ..
 npm install -g @angular/cli
 ng new angular-test
 cd angular-test
-npm install jest jest-preset-angular @types/jest --save-dev
+npm install @angular-builders/jest jest jest-preset-angular @types/jest --save-dev
 ```
 
 then follow https://www.amadousall.com/how-to-set-up-angular-unit-testing-with-jest/ to setup jest in the project.
+or rather https://spin.atomicobject.com/2022/08/02/jest-angular-project/.
 
 ## Development server
 
@@ -30,7 +31,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running unit tests
 
-Run `npm run test` to execute the unit tests via `jest`.
+Run `ng test` to execute the unit tests via `jest`.
 
 ## Running end-to-end tests
 
